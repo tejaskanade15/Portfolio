@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas Kanade | DevOps Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav id="navbar">
+    <div class="logo">
+        <h2><i class="fa-solid fa-terminal"></i> Tejas<span> Kanade</span></h2>
+    </div>
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.pdf" class="resume-btn" download><i class="fa-solid fa-download"></i> Resume</a>
+    </div>
+</nav>
+
+<header id="home">
+    <div class="header-content fade-in">
+       <p class="greeting">Hello, I'm Tejas Kanade</p>
+        <h1>RHCSA Certified <br>
+            <span class="gradient-text" id="typing-text"></span><span class="cursor">&nbsp;</span>
+        </h1>
+
+        <p class="subtitle">
+            Linux &nbsp;•&nbsp; Automation &nbsp;•&nbsp; Monitoring &nbsp;•&nbsp; Cloud Infrastructure
+        </p>
+
+        <div class="header-actions">
+            <a href="#projects" class="btn primary-btn">View My Work</a>
+            <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+        </div>
+    </div>
+</header>
+
+<section id="about" class="section-container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content fade-in">
+        <p><strong>RHCSA-certified</strong> B.Tech Computer Science student with strong expertise in <strong>Linux system administration</strong>, automation, and DevOps fundamentals. Experienced in configuring and managing enterprise Linux environments, including services, storage, networking, and system security.</p>
+
+        <p>Developed a <strong>Self-Healing Linux Server</strong> integrated with <strong>Prometheus</strong> for metrics collection and <strong>Grafana</strong> for real-time dashboard visualization. The system automatically detects failures, performs recovery actions, and provides centralized monitoring insights.</p>
+
+        <p>Passionate about infrastructure automation, monitoring systems, and cloud-native technologies. Currently expanding expertise in AWS, containerization, and CI/CD practices to build scalable and resilient infrastructure solutions.</p>
+    </div>
+</section>
+
+<section id="skills" class="section-container bg-darker">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-container fade-in">
+
+        <div class="skill-box">
+            <span class="title"><i class="fa-brands fa-linux"></i> Linux (RHEL 9.3/10)</span>
+            <div class="skill-bar"><span class="skill-per" style="width: 90%;"><span class="tooltip">90%</span></span></div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title"><i class="fa-solid fa-code"></i> Bash Scripting</span>
+            <div class="skill-bar"><span class="skill-per" style="width: 85%;"><span class="tooltip">85%</span></span></div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title"><i class="fa-brands fa-aws"></i> AWS (EC2, S3, IAM)</span>
+            <div class="skill-bar"><span class="skill-per" style="width: 75%;"><span class="tooltip">75%</span></span></div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title"><i class="fa-brands fa-git-alt"></i> Git & GitHub</span>
+            <div class="skill-bar"><span class="skill-per" style="width: 80%;"><span class="tooltip">80%</span></span></div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title"><i class="fa-solid fa-server"></i> Systemd & Cron</span>
+            <div class="skill-bar"><span class="skill-per" style="width: 85%;"><span class="tooltip">85%</span></span></div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title"><i class="fa-brands fa-python"></i> C | Java | Python</span>
+            <div class="skill-bar"><span class="skill-per" style="width: 70%;"><span class="tooltip">70%</span></span></div>
+        </div>
+
+    </div>
+</section>
+
+<section id="projects" class="section-container">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="project-grid fade-in">
+
+        <div class="project-card">
+            <div class="project-header">
+                <i class="fa-regular fa-folder-open folder-icon"></i>
+                <a href="https://github.com/tejaskanade15/self-healing-linux-server" target="_blank">
+                    <i class="fa-brands fa-github"></i> View Code
+                </a>
+            </div>
+
+            <h3>Self-Healing Linux Server</h3>
+
+            <p>
+                A self-healing Linux infrastructure solution that monitors system metrics and critical services using Prometheus.
+                Integrated with Grafana for real-time dashboard visualization and observability.
+                Automatically detects service failures, performs recovery actions, and sends alert notifications to ensure high availability.
+            </p>
+
+            <p class="project-impact">
+                Reduced manual monitoring effort by automating failure detection and improving service reliability.
+            </p>
+
+            <div class="tech-stack">
+                <span>Bash</span>
+                <span>Linux</span>
+                <span>Prometheus</span>
+                <span>Grafana</span>
+                <span>Systemd</span>
+                <span>Cron</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="section-container bg-darker">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-content fade-in">
+        <p>I'm currently looking for new opportunities in DevOps and System Administration. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+        <div class="contact-links">
+            <a href="mailto:tejaskanade15@gmail.com" class="contact-item"><i class="fa-solid fa-envelope"></i> Email</a>
+            <a href="https://linkedin.com/in/tejaskanade15" target="_blank" class="contact-item"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/tejaskanade15" target="_blank" class="contact-item"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Designed & Built by Tejas Kanade &copy; 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
